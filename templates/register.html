@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="..//static/register.css">
+</head>
+<body>
+<form action="{{url_for('register')}}" method="post">
+<div class='bold-line'></div>
+<div class='container'>
+  <div class='window'>
+    <div class='overlay'></div>
+    <div class='content'>
+      <div class='welcome'>Hello There!</div>
+      <div class='subtitle'>Register Here</div>
+      <div class='input-fields'>
+        <input type='text' placeholder='Write your phone' class='input-line full-width' name="phone"></input>
+        <input type='text' placeholder='Write your name' class='input-line full-width' name="name"></input>
+        <input type='password' placeholder='Write your password' class='input-line full-width' name="password"></input>
+
+      </div>
+
+      <div><button type="submit" class='ghost-round full-width'>Register</button></div>
+    </div>
+  </div>
+</div>
+</form>
+</body>
+</html>
